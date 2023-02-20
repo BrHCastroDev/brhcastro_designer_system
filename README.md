@@ -15,3 +15,10 @@
 - [x] | #[tsup](https://tsup.egoist.dev/) <small>`Bundle your TypeScript library with no config, powered by esbuild`</small>.
 - [x] | #[StoryBook](https://storybook.js.org/) `npx sb init --builder @storybook/builder-vite --type react --use-npm`.
 - [x] | #[Turbo Repo](https://turbo.build/repo).
+- [x] | #[Addon a11y](https://storybook.js.org/addons/@storybook/addon-a11y)
+    ```js
+    // docs/.storybook/main.js
+      module.exports = {
+        addons: ['@storybook/addon-a11y'],
+      };
+    ```
