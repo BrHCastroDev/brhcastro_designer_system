@@ -22,3 +22,7 @@
         addons: ['@storybook/addon-a11y'],
       };
     ```
+- [x] | #[StoryBook Deployer](https://github.com/storybook-eol/storybook-deployer)
+    ```js
+      
+    ```
