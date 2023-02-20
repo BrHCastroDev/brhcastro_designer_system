@@ -8,6 +8,13 @@ export default {
     children: 'Custom Title.',
   },
   argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', 'xl', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'select',
+      },
+      defaultValue: 'md',
+    },
     children: {
       name: 'Heading',
       defaultValue: 'Custom Title.',

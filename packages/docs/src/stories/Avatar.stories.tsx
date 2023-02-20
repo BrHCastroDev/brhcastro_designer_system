@@ -9,6 +9,13 @@ export default {
     alt: 'random avatar profiles',
   },
   argTypes: {
+    size: {
+      options: ['default', 'small'],
+      control: {
+        type: 'inline-radio',
+      },
+      defaultValue: 'default',
+    },
     src: {
       control: {
         type: 'text',

@@ -3,11 +3,34 @@ import { Button, ButtonProps } from '@brhcastro-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
-  title: 'Components/Button',
+  title: 'Forms/Button',
   component: Button,
   argTypes: {
+    onClick: {
+      action: 'click',
+    },
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+      defaultValue: 'primary',
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+      defaultValue: 'md',
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+      defaultValue: false,
+    },
     children: {
-      name: 'Button',
+      name: 'Title',
       defaultValue: 'Submit',
       description: 'Button title',
       type: 'string',
