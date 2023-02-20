@@ -1,0 +1,17 @@
+export const space = {
+  /** 0.25rem / 4px */ 1: '0.25rem',
+  /** 0.5rem / 8px */ 2: '0.5rem',
+  /** 0.75rem / 12px */ 3: '0.75rem',
+  /** '1rem / 16px */ 4: '1rem',
+  /** 1.25rem / 20px */ 5: '1.25rem',
+  /** 1.5rem / 24px */ 6: '1.5rem',
+  /** 1.75rem / 28px */ 7: '1.75rem',
+  /** '2rem / 32px */ 8: '2rem',
+  /** 2.5rem / 40px */ 10: '2.5rem',
+  /** 3rem / 48px */ 12: '3rem',
+  /** 4rem / 64px */ 16: '4rem',
+  /** 5rem / 80px */ 20: '5rem',
+  /** 10rem / 160px */ 40: '10rem',
+  /** 16rem / 256px */ 64: '16rem',
+  /** 20rem / 320px */ 80: '20rem',
+}

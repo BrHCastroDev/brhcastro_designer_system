@@ -1,0 +1,22 @@
+{
+  "name": "@brhcastro-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "Henrique de Castro <hendecastro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@brhcastro-ui/eslint-config": "*",
+    "@brhcastro-ui/ts-config": "*",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}
