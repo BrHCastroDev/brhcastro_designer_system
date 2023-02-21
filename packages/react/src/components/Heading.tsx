@@ -3,7 +3,7 @@ import { styled } from '../styles'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',
-  lineHeight: '$base',
+  lineHeight: '$shorter',
   margin: 0,
   color: '$gray100',
 
