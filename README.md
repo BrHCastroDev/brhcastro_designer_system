@@ -35,3 +35,4 @@
        npx changeset init
     ```
 - [x] | #[Remote Caching](https://vercel.com/docs/concepts/monorepos/remote-caching)
+- [x] | #[Changesets Release Action](https://github.com/changesets/action)
