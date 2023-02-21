@@ -7,9 +7,13 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "commitizen": "^4.3.0",

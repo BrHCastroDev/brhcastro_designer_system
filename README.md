@@ -23,6 +23,15 @@
       };
     ```
 - [x] | #[StoryBook Deployer](https://github.com/storybook-eol/storybook-deployer)
-    ```js
-      
+- [x] | #[Changesets](https://turbo.build/repo/docs/handbook/publishing-packages/versioning-and-publishing#understanding-changesets)
+    ```sh
+       # Helps control versioning of the monorepo since git hub takes care of versioning the entire repository the changeset helps control the versioning of each individual package;
+       # We have several packages inside this monorepo and each of them will be served as a separate package in npm;
+       # These packages may have different versions and even different changelogs;
+       
+       # Install
+       npm i @changesets/cli -D
+       # Initialize
+       npx changeset init
     ```
+- [x] | #[Remote Caching](https://vercel.com/docs/concepts/monorepos/remote-caching)
