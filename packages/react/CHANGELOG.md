@@ -1,5 +1,11 @@
 # @brhcastro-ui/react
 
+## 2.0.3
+
+### Patch Changes
+
+- added focus behavior in Button component and removed the obligation to report in the component variant.
+
 ## 2.0.2
 
 ### Patch Changes
